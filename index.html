@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Curriculum, Diego Garcia">
+    <meta name="author" content="Roberto Carlos Uribe">
+    <!--Autor: Roberto Uribe, Enero de 2023, para curso de Front End Argentina Programa 4.0-->
+
+    <link rel="icon" href="https://www.w3schools.com/favicon.ico" type="image/x-icon">
+    <title>CV - DIEGO GARCIA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nunito+Sans&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" type="text/css" href="cv.css" />
+
+    <script src="https://kit.fontawesome.com/b50331f615.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  
+    <header>
+        <table cellspacing="20">
+        <td>
+            <!--Esta es la página que use para generar la foto-->
+            <!--https://this-person-does-not-exist.com-->
+            <img src="foto.jpg" alt="No es una persona real" style="width:128px;height:128px;">
+        </td>
+        <td>
+            <h1>Curriculum Vitae</h1>
+            <h1>DIEGO GARCIA</h1>
+            <!--La información es del curriculum de un amigo, cambie detalles para que sea distinto-->
+    </td>
+    </table>
+      </header>
+      
+      <section>
+        <nav>
+          <ul>
+            <h4><li><a href="if_1_info.html" target="datos_iframe">INFORMACION PERSONAL</a></li></h4>
+            <h4><li><a href="if_2_exp.html" target="datos_iframe">EXPERIENCIA PROFESIONAL</a></li></h4>
+            <h4><li><a href="if_3_eu.html" target="datos_iframe">ESTUDIOS UNIVERSITARIOS</a></li></h4>
+            <h4><li><a href="if_4_ep.html" target="datos_iframe">ESTUDIOS DE POSGRADO</a></li></h4>
+          </ul>
+        </nav>
+        
+        <article>
+          <iframe src="if_1_info.html" width="100%" height="100%" name="datos_iframe"></iframe>
+        </article>
+      </section>
+      
+      <footer>
+        <table style="width:100%" cellspacing="4" cellpadding="4">
+          <tr>
+            <th style="width:20%">&nbsp;</th>
+            <th style="width:40%">&nbsp;</th> 
+            <th style="width:40%">&nbsp;</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td><h4 id="demo"><i class="fa-solid fa-phone"></i>Whatsapp: (388) 435-2790 <button type="button" onclick='document.getElementById("demo").innerHTML = "URGENCIAS: 011 555 1010"'>MOSTRAR NUMERO DE URGENCIAS</button></h4>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><h4><i class="fa-solid fa-envelope"></i> Email: diego.garcia@example.com</h4></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+      </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0px; 
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: larger;
+}
+
+h4 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: large;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: medium;
+}
+
+a:hover{
+  color: black;
+}
+
+header {
+  background-color: #518d8d;
+  padding: 10px;
+  text-align: left;
+  font-size: 32px;
+  color: black;
+}
+
+nav {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: medium;
+  float: left;
+  width: 30%;
+  height: 400px;
+  background: #85d2d2;
+  padding: 20px;
+}
+
+nav ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+ul li {
+  margin: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 400px;
+}
+
+footer {
+  background-color: #518d8d;
+  padding: 0px;
+  text-align: left;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
